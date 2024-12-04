@@ -51,13 +51,13 @@ function StaffStatusBoard({ staff, interval = 30000 }) {
         <TableContainer
             component={Paper}
             sx={{
-                boxShadow: 'none', // Remove shadow for a flat look
-               // border: '1px solid #e0e0e0', // Optional: Add a subtle border
-               // borderRadius: '4px', // Optional: Adjust corner rounding
+                boxShadow: 'none',
+               // border: '1px solid #e0e0e0',
+               // borderRadius: '4px',
             }}
         >
             <Table sx={{ minWidth: 650 }} aria-label="staff table">
-                <caption>Page {page + 1}</caption>
+                <caption>Page {page + 1} v2</caption>
                 <TableHead>
                     <TableRow>
                         <TableCell sx={{ fontWeight: 'bold', verticalAlign: 'middle', width: 300 }}>STAFF</TableCell>
