@@ -67,7 +67,7 @@ function StaffStatusBoard({ staff, interval = 30000 }) {
             }}
         >
             <Table sx={{ minWidth: 650 }} aria-label="staff table">
-                <caption>Page {page + 1} v2</caption>
+                <caption>Page {page + 1} v3</caption>
                 <TableHead>
                     <TableRow>
                         <TableCell sx={{ fontWeight: 'bold', verticalAlign: 'middle', width: 300 }}>STAFF</TableCell>

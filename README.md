@@ -73,12 +73,19 @@ const staff = [
 ## Project Structure
 
 ```
-src/
-├── components/
-│   ├── StaffStatusBoard.js  # Main component
-├── App.js                   # Root application file
-├── index.js                 # Entry point
-└── styles/                  # Styling (optional)
+in-out-board/
+├── public/              # Static assets
+├── src/                 # Source code
+│   ├── components/      # React components
+│   ├── App.jsx          # Root application component
+│   ├── main.jsx         # Entry point
+├── dist/                # Production build (auto-generated)
+├── .github/             # GitHub Actions workflow
+│   └── workflows/
+│       └── deploy.yml   # Deployment workflow
+├── package.json         # Project configuration
+├── vite.config.js       # Vite configuration
+└── README.md            # Project documentation
 ```
 
 ## Contributing
