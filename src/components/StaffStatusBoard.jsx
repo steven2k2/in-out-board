@@ -23,6 +23,16 @@ function StaffStatusBoard({ staff, interval = 30000 }) {
 
     const currentData = staff.slice(page * ROWS_PER_PAGE, (page + 1) * ROWS_PER_PAGE);
 
+    // const paddedData = [
+    //     ...currentData,
+    //     ...Array(ROWS_PER_PAGE - currentData.length).fill({
+    //         id: '',
+    //         name: '',
+    //         status: '',
+    //         notes: ''
+    //     }),
+    // ];
+
     const renderStatus = (status) => {
         const statusStyles = {
             in: { color: '#8BC34A' },
